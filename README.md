@@ -1,2 +1,2 @@
-# Alexandria-
+# Alexandria
 An book management application.
