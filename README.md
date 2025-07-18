@@ -1,2 +1,2 @@
 # Alexandria
-An book management application.
+An book management mobile application.
