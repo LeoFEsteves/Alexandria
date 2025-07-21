@@ -1,5 +1,6 @@
 import {StyleSheet, View, Text } from 'react-native';
 import {FloatingActionButton} from '@/components/ui/FloatingActionButton';
+import {Routes} from '@/app/routes'
 
 export default function BooksScreen() {
   return (
@@ -7,7 +8,7 @@ export default function BooksScreen() {
     <View>
       <Text style={styles.title}>BOOKS</Text>
     </View>
-    <FloatingActionButton icon_name="add" />
+    <FloatingActionButton icon_name="add" link={Routes.addBooks}/>
     </>
   );
 }
