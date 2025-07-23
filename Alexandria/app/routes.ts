@@ -1,6 +1,6 @@
 export const Routes = {
-    books: '/(tabs)/books/books',
-    addBooks: '/(tabs)/books/addBooks',
+    books: '/(tabs)/books',
+    addBooks: '/books/addBooks',
     analytics: '/(tabs)/analytics'
 } as const;
 
